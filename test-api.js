@@ -25,7 +25,7 @@ app.post("/",function(req,res){
       const imageurl = "http://openweathermap.org/img/wn/"+icon+"@2x.png";
       console.log(temp);
       console.log(description);
-      res.write("<h1>the website is under maintenance.</h1>");
+      res.write("<h1>the website is under maintenance..</h1>");
       res.write("<h2>the temperature in "+city+" is "+temp +" degree celcius.</h2>");
       res.write("<li>the weather is like "+description+".</li>");
       res.write("<img src="+imageurl+">");
